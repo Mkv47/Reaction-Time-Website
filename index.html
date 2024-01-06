@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home - Reaction Time Plus</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Reaction Time Plus</h1>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <button id="btnLogin">Login</button>
+        </nav>
+
+    </header>
+
+    <div class="container">
+        <button id="startButton">Click To Start !
+            <br>Click The Red When You See It.
+        </button>
+        <div id="box" class="hidden"></div>
+        <div id="overlay" class="hidden"></div>
+        <div id="resultBox" class="hidden"></div>
+    </div>
+
+    <footer class = "footer">
+        &copy; 2024 Reaction Time Plus. All rights reserved.
+    </footer>
+
+    <div id="loginForm" >
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button id="btnSubmitLogin">Login</button>
+        <button id="btnCloseLogin">Close</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
