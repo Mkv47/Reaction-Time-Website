@@ -1,6 +1,6 @@
 # Reaction Time Website
 
-A browser-based game designed to measure and improve your reaction time. Built with HTML, CSS, and JavaScript, this application provides immediate feedback and tracks your best scores.
+A browser-based game designed to measure and improve your reaction time. Built with HTML, CSS, and JavaScript, this application provides immediate feedback.
 
 ## Features
 
